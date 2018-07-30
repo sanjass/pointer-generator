@@ -52,7 +52,7 @@ Note: you want to run the above command using the same settings you entered for 
 **Restoring snapshots**: The eval job saves a snapshot of the model that scored the lowest loss on the validation data so far. You may want to restore one of these "best models", e.g. if your training job has overfit, or if the training checkpoint has become corrupted by NaN values. To do this, run your train command plus the `--restore_best_model=1` flag. This will copy the best model in the eval directory to the train directory. Then run the usual train command again.
 
 ### Preprocess data
-Use https://github.com/dondon2475848/make_datafiles_for_pgn
+Use [this](https://github.com/dondon2475848/make_datafiles_for_pgn)
 
 
 ### Run beam search decoding
